@@ -1,0 +1,11 @@
+model,fold,accuracy,f1,roc_auc,best_params
+logistic_regression,0,0.9166666666666666,0.9090909090909091,0.9475446428571429,{'clf__C': 0.1}
+logistic_regression,1,0.8333333333333334,0.8148148148148148,0.9084821428571429,{'clf__C': 1}
+logistic_regression,2,0.7457627118644068,0.7272727272727273,0.8344907407407407,{'clf__C': 1}
+logistic_regression,3,0.847457627118644,0.8163265306122449,0.8888888888888888,{'clf__C': 0.1}
+logistic_regression,4,0.864406779661017,0.8333333333333334,0.9363425925925926,{'clf__C': 0.1}
+random_forest,0,0.8833333333333333,0.8771929824561403,0.9464285714285714,"{'clf__max_depth': 5, 'clf__min_samples_leaf': 5, 'clf__n_estimators': 100}"
+random_forest,1,0.8166666666666667,0.8,0.9196428571428572,"{'clf__max_depth': 3, 'clf__min_samples_leaf': 2, 'clf__n_estimators': 300}"
+random_forest,2,0.6949152542372882,0.6666666666666666,0.8252314814814814,"{'clf__max_depth': None, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 300}"
+random_forest,3,0.847457627118644,0.8235294117647058,0.8946759259259259,"{'clf__max_depth': 3, 'clf__min_samples_leaf': 5, 'clf__n_estimators': 300}"
+random_forest,4,0.8983050847457628,0.875,0.9618055555555556,"{'clf__max_depth': 3, 'clf__min_samples_leaf': 5, 'clf__n_estimators': 100}"
