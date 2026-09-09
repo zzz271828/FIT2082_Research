@@ -1,0 +1,3 @@
+model,rocauc_pooled_mean,rocauc_pooled_std,rocauc_weighted_mean,rocauc_weighted_std
+logreg,0.889,0.018,0.88,0.05
+rf,0.902,0.034,0.886,0.053

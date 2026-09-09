@@ -1,0 +1,6 @@
+fold,k_used,fallback_to_global,fallback_reason,train_cluster_sizes,val_cluster_sizes
+0,2,False,,"[147, 90]","[29, 31]"
+1,2,False,,"[141, 96]","[34, 26]"
+2,2,False,,"[127, 111]","[35, 24]"
+3,2,False,,"[100, 138]","[23, 36]"
+4,2,False,,"[104, 134]","[20, 39]"

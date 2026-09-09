@@ -1,0 +1,21 @@
+model,fold,sex,n,best_params
+logreg,0,male,44,{'clf__C': 0.1}
+logreg,0,female,16,{'clf__C': 0.01}
+logreg,1,male,41,{'clf__C': 0.1}
+logreg,1,female,19,{'clf__C': 1}
+logreg,2,male,39,{'clf__C': 0.1}
+logreg,2,female,20,{'clf__C': 0.1}
+logreg,3,male,42,{'clf__C': 0.1}
+logreg,3,female,17,{'clf__C': 1}
+logreg,4,male,35,{'clf__C': 0.1}
+logreg,4,female,24,{'clf__C': 0.01}
+rf,0,male,44,"{'clf__max_depth': 5, 'clf__n_estimators': 200}"
+rf,0,female,16,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+rf,1,male,41,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+rf,1,female,19,"{'clf__max_depth': None, 'clf__n_estimators': 400}"
+rf,2,male,39,"{'clf__max_depth': 5, 'clf__n_estimators': 200}"
+rf,2,female,20,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+rf,3,male,42,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+rf,3,female,17,"{'clf__max_depth': None, 'clf__n_estimators': 400}"
+rf,4,male,35,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+rf,4,female,24,"{'clf__max_depth': None, 'clf__n_estimators': 200}"

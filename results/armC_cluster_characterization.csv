@@ -1,0 +1,4 @@
+,n,disease_rate,pct_male,mean_age,mean_thalach,pct_exang,mean_oldpeak,mean_ca,pct_cp_asymptomatic
+0,103,0.83,77.67,58.6,131.06,66.02,1.95,1.16,75.73
+1,151,0.21,59.6,50.95,162.37,9.93,0.44,0.25,31.79
+2,43,0.47,72.09,57.44,149.16,32.56,1.08,1.02,37.21
