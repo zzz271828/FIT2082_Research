@@ -1,0 +1,21 @@
+model,fold,cluster,n_train,best_params
+logreg,0,0,109,{'clf__C': 0.1}
+logreg,0,1,128,{'clf__C': 1}
+rf,0,0,109,"{'clf__max_depth': 5, 'clf__n_estimators': 200}"
+rf,0,1,128,"{'clf__max_depth': 10, 'clf__n_estimators': 200}"
+logreg,1,0,109,{'clf__C': 0.1}
+logreg,1,1,128,{'clf__C': 1}
+rf,1,0,109,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
+rf,1,1,128,"{'clf__max_depth': 5, 'clf__n_estimators': 200}"
+logreg,2,0,115,{'clf__C': 0.1}
+logreg,2,1,123,{'clf__C': 1}
+rf,2,0,115,"{'clf__max_depth': 10, 'clf__n_estimators': 200}"
+rf,2,1,123,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+logreg,3,0,114,{'clf__C': 0.1}
+logreg,3,1,124,{'clf__C': 0.1}
+rf,3,0,114,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+rf,3,1,124,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+logreg,4,0,110,{'clf__C': 0.01}
+logreg,4,1,128,{'clf__C': 10}
+rf,4,0,110,"{'clf__max_depth': 5, 'clf__n_estimators': 400}"
+rf,4,1,128,"{'clf__max_depth': None, 'clf__n_estimators': 200}"
