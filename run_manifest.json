@@ -1,4 +1,26 @@
 {
-  "fold_id_md5": "4d54a69c577f498114826fb495d7eaa8",
-  "written_by": "global_model_armA.ipynb"
+  "fold_id_md5": "5c8b2d255636755af28b72d3eb8dc11d",
+  "written_by": "global_model_armA.ipynb",
+  "feature_set": "selected",
+  "features": [
+    "age",
+    "thalach",
+    "oldpeak",
+    "ca",
+    "cp",
+    "slope",
+    "thal",
+    "sex",
+    "exang"
+  ],
+  "dropped_features": [
+    "trestbps",
+    "chol",
+    "restecg",
+    "fbs"
+  ],
+  "n_transformed_features": 13,
+  "k_outer": 10,
+  "k_inner": 10,
+  "random_state": 2
 }
