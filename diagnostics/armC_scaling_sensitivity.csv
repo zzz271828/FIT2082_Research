@@ -1,3 +1,3 @@
 scaling,k,cluster_sizes,disease_rates,pct_male,ari_vs_outcome,ari_vs_sex
-passthrough unscaled (uncorrected),2,"[159, 138]","[np.float64(0.226), np.float64(0.732)]","[np.float64(66.7), np.float64(68.8)]",0.256,-0.004
-passthrough standardised (corrected),3,"[152, 102, 43]","[np.float64(0.217), np.float64(0.824), np.float64(0.465)]","[np.float64(59.9), np.float64(77.5), np.float64(72.1)]",0.259,-0.004
+passthrough unscaled (uncorrected),2,"[123, 174]","[np.float64(0.78), np.float64(0.236)]","[np.float64(74.8), np.float64(62.6)]",0.291,-0.003
+passthrough standardised (corrected),2,"[127, 170]","[np.float64(0.811), np.float64(0.2)]","[np.float64(78.0), np.float64(60.0)]",0.369,0.01
