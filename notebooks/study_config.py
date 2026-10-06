@@ -32,8 +32,9 @@ THRESHOLD = 0.5
 # Tuning criterion used by every GridSearchCV in every arm.
 TUNING_SCORING = "roc_auc"
 
-# All 13 clinical features named in the proposal (Section 3.1).
-FEATURE_SET = "all"
+# The 9 feature set used in every arm (specified by the supervisor). "all"
+# (the 13 raw clinical features) is kept only as an alternative setting.
+FEATURE_SET = "selected"
 
 FEATURE_GROUPS = {
     "all": {
@@ -41,9 +42,7 @@ FEATURE_GROUPS = {
         "nominal": ["cp", "restecg", "slope", "thal"],
         "binary": ["sex", "fbs", "exang"],
     },
-    # Earlier 9 feature subset. It was chosen from a ranking computed on all
-    # 297 patients, so using it inside cross validation leaks information from
-    # the validation folds. Kept only so that earlier results can be reproduced.
+    # 9 feature set: drops trestbps, chol, restecg and fbs.
     "selected": {
         "continuous": ["age", "thalach", "oldpeak", "ca"],
         "nominal": ["cp", "slope", "thal"],

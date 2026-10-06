@@ -1,10 +1,10 @@
 arm,model,TN,FP,FN,TP
-A,logreg,141,19,28,109
-A,rf,140,20,31,106
-A,svm,141,19,26,111
-B,logreg,135,25,28,109
-B,rf,141,19,30,107
-B,svm,140,20,30,107
-C,logreg,131,29,26,111
-C,rf,139,21,33,104
-C,svm,137,23,33,104
+A,Logistic regression,140,20,32,105
+A,Random forest,145,15,31,106
+A,Support vector machine,139,21,25,112
+B,Logistic regression,139,21,29,108
+B,Random forest,138,22,26,111
+B,Support vector machine,136,24,31,106
+C,Logistic regression,137,23,26,111
+C,Random forest,140,20,31,106
+C,Support vector machine,138,22,29,108

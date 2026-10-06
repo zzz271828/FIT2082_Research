@@ -1,28 +1,28 @@
 rq,comparison,model,scope,first_right_second_wrong (b),first_wrong_second_right (c),net_gain_first,z,p_approx,p_exact,evidence,below_bonferroni
-RQ1,B vs A,logreg,all patients (accuracy),9,15,-6,-1.224744871391589,0.22067136191984693,0.30745625495910645,very weak / none,False
-RQ1,B vs A,logreg,disease patients (sensitivity),5,5,0,0.0,1.0,1.0,very weak / none,False
-RQ1,B vs A,logreg,healthy patients (specificity),4,10,-6,-1.6035674514745464,0.10880943004054569,0.1795654296875,very weak / none,False
-RQ1,B vs A,rf,all patients (accuracy),8,6,2,0.5345224838248485,0.5929800980174269,0.79052734375,very weak / none,False
-RQ1,B vs A,rf,disease patients (sensitivity),5,4,1,0.3333333333333335,0.7388826803635271,1.0,very weak / none,False
-RQ1,B vs A,rf,healthy patients (specificity),3,2,1,0.44721359549995787,0.6547208460185772,1.0,very weak / none,False
-RQ1,B vs A,svm,all patients (accuracy),6,11,-5,-1.2126781251816647,0.22525290636065332,0.332305908203125,very weak / none,False
-RQ1,B vs A,svm,disease patients (sensitivity),2,6,-4,-1.414213562373095,0.15729920705028516,0.2890625,very weak / none,False
-RQ1,B vs A,svm,healthy patients (specificity),4,5,-1,-0.3333333333333335,0.7388826803635271,1.0,very weak / none,False
-RQ2,C vs A,logreg,all patients (accuracy),10,18,-8,-1.511857892036909,0.1305700181157362,0.1849333420395851,very weak / none,False
-RQ2,C vs A,logreg,disease patients (sensitivity),5,3,2,0.7071067811865475,0.4795001221869535,0.7265625,very weak / none,False
-RQ2,C vs A,logreg,healthy patients (specificity),5,15,-10,-2.23606797749979,0.025347318677468256,0.04138946533203125,moderate,False
-RQ2,C vs A,rf,all patients (accuracy),16,19,-3,-0.5070925528371102,0.6120898800892566,0.735878800856881,very weak / none,False
-RQ2,C vs A,rf,disease patients (sensitivity),8,10,-2,-0.4714045207910319,0.6373518882339368,0.8145294189453125,very weak / none,False
-RQ2,C vs A,rf,healthy patients (specificity),8,9,-1,-0.24253562503633302,0.8083651559145102,1.0,very weak / none,False
-RQ2,C vs A,svm,all patients (accuracy),10,21,-11,-1.9756583222945239,0.04819348829319081,0.07075554598122835,marginal,False
-RQ2,C vs A,svm,disease patients (sensitivity),4,11,-7,-1.807392228230128,0.07070114486598299,0.11846923828124999,very weak / none,False
-RQ2,C vs A,svm,healthy patients (specificity),6,10,-4,-1.0,0.31731050786291415,0.454498291015625,very weak / none,False
-RQ3,B vs C,logreg,all patients (accuracy),11,9,2,0.44721359549995837,0.6547208460185767,0.8238029479980469,very weak / none,False
-RQ3,B vs C,logreg,disease patients (sensitivity),2,4,-2,-0.8164965809277261,0.4142161782425251,0.6875,very weak / none,False
-RQ3,B vs C,logreg,healthy patients (specificity),9,5,4,1.0690449676496978,0.28504940740261253,0.4239501953125,very weak / none,False
-RQ3,B vs C,rf,all patients (accuracy),19,14,5,0.8703882797784896,0.3840882494738518,0.48685024166479707,very weak / none,False
-RQ3,B vs C,rf,disease patients (sensitivity),12,9,3,0.6546536707079769,0.5126907602619235,0.6636238098144531,very weak / none,False
-RQ3,B vs C,rf,healthy patients (specificity),7,5,2,0.5773502691896261,0.5637028616507728,0.7744140625,very weak / none,False
-RQ3,B vs C,svm,all patients (accuracy),19,13,6,1.0606601717798212,0.2888443663464849,0.37708558747544885,very weak / none,False
-RQ3,B vs C,svm,disease patients (sensitivity),9,6,3,0.7745966692414833,0.43857802608099994,0.6072387695312499,very weak / none,False
-RQ3,B vs C,svm,healthy patients (specificity),10,7,3,0.7276068751089991,0.46685427082272535,0.629058837890625,very weak / none,False
+RQ1,B vs A,Logistic regression,all patients (accuracy),12,10,2,0.4264014327112205,0.6698153575994168,0.8318119049072266,very weak / none,False
+RQ1,B vs A,Logistic regression,disease patients (sensitivity),7,4,3,0.9045340337332908,0.36571229628151325,0.548828125,very weak / none,False
+RQ1,B vs A,Logistic regression,healthy patients (specificity),5,6,-1,-0.30151134457776374,0.7630246005529949,1.0,very weak / none,False
+RQ1,B vs A,Random forest,all patients (accuracy),12,14,-2,-0.39223227027636776,0.6948866023724737,0.8450189828872681,very weak / none,False
+RQ1,B vs A,Random forest,disease patients (sensitivity),10,5,5,1.2909944487358054,0.19670560245894697,0.30175781249999994,very weak / none,False
+RQ1,B vs A,Random forest,healthy patients (specificity),2,9,-7,-2.1105794120443453,0.034808478811867126,0.0654296875,marginal,False
+RQ1,B vs A,Support vector machine,all patients (accuracy),9,18,-9,-1.7320508075688774,0.08326451666355039,0.12207812070846558,very weak / none,False
+RQ1,B vs A,Support vector machine,disease patients (sensitivity),2,8,-6,-1.8973665961010275,0.05777957112359726,0.109375,very weak / none,False
+RQ1,B vs A,Support vector machine,healthy patients (specificity),7,10,-3,-0.7276068751089991,0.46685427082272535,0.629058837890625,very weak / none,False
+RQ2,C vs A,Logistic regression,all patients (accuracy),15,12,3,0.577350269189626,0.5637028616507729,0.7011080384254456,very weak / none,False
+RQ2,C vs A,Logistic regression,disease patients (sensitivity),11,5,6,1.5,0.13361440253771611,0.210113525390625,very weak / none,False
+RQ2,C vs A,Logistic regression,healthy patients (specificity),4,7,-3,-0.9045340337332908,0.36571229628151325,0.548828125,very weak / none,False
+RQ2,C vs A,Random forest,all patients (accuracy),12,17,-5,-0.9284766908852594,0.3531603533159877,0.45825831964612007,very weak / none,False
+RQ2,C vs A,Random forest,disease patients (sensitivity),7,7,0,0.0,1.0,1.0,very weak / none,False
+RQ2,C vs A,Random forest,healthy patients (specificity),5,10,-5,-1.2909944487358058,0.19670560245894686,0.30175781249999994,very weak / none,False
+RQ2,C vs A,Support vector machine,all patients (accuracy),13,18,-5,-0.8980265101338742,0.3691714163326918,0.47312965989112854,very weak / none,False
+RQ2,C vs A,Support vector machine,disease patients (sensitivity),6,10,-4,-1.0,0.31731050786291415,0.454498291015625,very weak / none,False
+RQ2,C vs A,Support vector machine,healthy patients (specificity),7,8,-1,-0.2581988897471611,0.7962534147376392,1.0,very weak / none,False
+RQ3,B vs C,Logistic regression,all patients (accuracy),18,19,-1,-0.16439898730535696,0.8694170607412395,1.0,very weak / none,False
+RQ3,B vs C,Logistic regression,disease patients (sensitivity),8,11,-3,-0.6882472016116855,0.4912971242158929,0.6476058959960938,very weak / none,False
+RQ3,B vs C,Logistic regression,healthy patients (specificity),10,8,2,0.4714045207910319,0.6373518882339368,0.8145294189453125,very weak / none,False
+RQ3,B vs C,Random forest,all patients (accuracy),20,17,3,0.4931969619160722,0.6218734243307408,0.7428293587290682,very weak / none,False
+RQ3,B vs C,Random forest,disease patients (sensitivity),14,9,5,1.0425720702853742,0.29714653034847016,0.4048728942871094,very weak / none,False
+RQ3,B vs C,Random forest,healthy patients (specificity),6,8,-2,-0.5345224838248489,0.5929800980174267,0.79052734375,very weak / none,False
+RQ3,B vs C,Support vector machine,all patients (accuracy),13,17,-4,-0.7302967433402213,0.4652088184521418,0.5846647117286922,very weak / none,False
+RQ3,B vs C,Support vector machine,disease patients (sensitivity),7,9,-2,-0.5,0.6170750774519738,0.803619384765625,very weak / none,False
+RQ3,B vs C,Support vector machine,healthy patients (specificity),6,8,-2,-0.5345224838248489,0.5929800980174267,0.79052734375,very weak / none,False
