@@ -22,7 +22,12 @@ from sklearn.svm import SVC
 
 # Reproducibility and cross validation
 RANDOM_STATE = 2
-K_OUTER = 10
+K_OUTER = 5       # folds per repeat (Repeated 5-Fold CV)
+N_REPEATS = 10    # independent repeats of the 5-fold split, each with a
+                  # different shuffle, to stabilise the outer-fold estimate
+                  # against the sampling variance of any single partition
+                  # (297 patients / 5 folds gives test folds of ~59 patients,
+                  # vs ~30 at the previous plain 10-fold split).
 K_INNER = 10
 
 # Predicted probability at or above this value is classed as disease present.
@@ -157,6 +162,13 @@ def get_models(feature_set=FEATURE_SET, exclude=()):
             },
         ),
     }
+
+
+def fold_columns(n_repeats=N_REPEATS):
+    """Column names in fold_id.csv: one per repeat of the K_OUTER-fold split.
+    Shared so Arm A (which creates the file) and Arms B/C (which only verify
+    it) always agree on the schema."""
+    return [f"r{r}" for r in range(n_repeats)]
 
 
 def make_dirs():
